@@ -1,0 +1,26 @@
+{
+  "name": "batcomputer-theme",
+  "displayName": "Batcomputer Surveillance (The Batman 2022)",
+  "description": "Authentic Batcomputer Surveillance & Tactical HUD theme from The Batman (2022) for Zeron, VS Code, and more.",
+  "version": "2.1.0",
+  "publisher": "WayneEnterprises",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arpitnnd/batcomputer-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Batcomputer (Surveillance & HUD)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/batcomputer-surveillance.json"
+      }
+    ]
+  }
+}
