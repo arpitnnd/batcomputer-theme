@@ -113,8 +113,8 @@
     "editorCursor.foreground": "#2dd4bf",
     "editor.selectionBackground": "#2dd4bf33",
     "editor.selectionHighlightBackground": "#2dd4bf1f",
-    "editor.findMatchBackground": "#2dd4bf4d",
-    "editor.findMatchHighlightBackground": "#2dd4bf26",
+    "editor.findMatchBackground": "#f43f5e55",
+    "editor.findMatchHighlightBackground": "#f43f5e26",
     "editorBracketMatch.background": "#2dd4bf2b",
     "editorBracketMatch.border": "#2dd4bf",
     "editorLineNumber.foreground": "#414e60",
@@ -127,12 +127,12 @@
     "editorInfo.foreground": "#38bdf8",
     "gitDecoration.addedResourceForeground": "#4ade80",
     "gitDecoration.modifiedResourceForeground": "#38bdf8",
-    "gitDecoration.deletedResourceForeground": "#f43f5e",
+    "gitDecoration.deletedResourceForeground": "#fb7185",
     "gitDecoration.untrackedResourceForeground": "#2dd4bf",
     "gitDecoration.ignoredResourceForeground": "#414e60",
-    "diffEditor.insertedTextBackground": "#16653433",
-    "diffEditor.removedTextBackground": "#991b1b33",
-    "diffEditor.diagonalFill": "#1c222c",
+    "diffEditor.insertedTextBackground": "#22c55e3d",
+    "diffEditor.removedTextBackground": "#f43f5e3d",
+    "diffEditor.diagonalFill": "#283344",
     "terminal.background": "#08090c",
     "terminal.foreground": "#e2e8f0",
     "terminalCursor.foreground": "#2dd4bf",
@@ -152,7 +152,23 @@
     "terminal.ansiBrightBlue": "#60a5fa",
     "terminal.ansiBrightMagenta": "#d8b4fe",
     "terminal.ansiBrightCyan": "#5eead4",
-    "terminal.ansiBrightWhite": "#ffffff"
+    "terminal.ansiBrightWhite": "#ffffff",
+    "editor.findMatchBorder": "#f43f5e",
+    "diffEditor.insertedLineBackground": "#22c55e1f",
+    "diffEditor.insertedTextBorder": "#22c55ebf",
+    "diffEditor.removedLineBackground": "#f43f5e1f",
+    "diffEditor.removedTextBorder": "#f43f5ebf",
+    "diffEditor.border": "#1e2632",
+    "diffEditorGutter.insertedLineBackground": "#22c55e",
+    "diffEditorGutter.removedLineBackground": "#fb7185",
+    "diffEditorOverview.insertedForeground": "#22c55e",
+    "diffEditorOverview.removedForeground": "#fb7185",
+    "editorGutter.addedBackground": "#22c55e",
+    "editorGutter.deletedBackground": "#fb7185",
+    "editorGutter.modifiedBackground": "#38bdf8",
+    "minimapGutter.addedBackground": "#22c55e",
+    "minimapGutter.deletedBackground": "#fb7185",
+    "minimapGutter.modifiedBackground": "#38bdf8"
   },
   "tokenColors": [
     {
@@ -162,7 +178,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#64748b",
+        "foreground": "#78879b",
         "fontStyle": "italic"
       }
     },
@@ -196,7 +212,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#4ade80"
+        "foreground": "#fb7185"
       }
     },
     {
@@ -352,7 +368,7 @@
         "string.regexp"
       ],
       "settings": {
-        "foreground": "#22d3ee"
+        "foreground": "#f43f5e"
       }
     },
     {
@@ -361,7 +377,7 @@
         "constant.character.escape"
       ],
       "settings": {
-        "foreground": "#22d3ee"
+        "foreground": "#fb7185"
       }
     },
     {
